@@ -6,6 +6,7 @@
 
 body {
     background-color: white;
+    height: 200vh;
 }
 
 .header {
@@ -81,3 +82,58 @@ a:hover,
 a:focus {
     color:black;
 }
+
+.background-img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-image: url("C:/Users/Ning/Documents/Assignments/week2/Portfolio/assets/images/backgroundImg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h3 {
+    float: right;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px 15px;
+    margin: 20px 50px 20px 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    text-align: right;
+    border-right: 4px solid black;
+    padding-right: 15px;
+}
+
+#about-me p {
+    padding: 0 5px 10px 30px;
+}
+
+#about-me {
+    display: flex;
+    margin: 0 30px 20px 60px;
+}
+
+#work {
+    display: flex;
+    margin: 0 30px 20px 60px;
+}
+
+#contact-me {
+    display: flex;
+    margin: 0 30px 20px 60px;
+}
+
+
+
+
+
