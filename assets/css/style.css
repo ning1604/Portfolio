@@ -105,35 +105,121 @@ h3 {
     margin: 20px 50px 20px 0;
 }
 
-h2 {
+/* h2 {
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 150px;
     text-align: right;
     border-right: 4px solid black;
     padding-right: 15px;
+} */
+
+h2 {
+    float: right;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    text-align: right;
+    margin: 3px 25px 0 0;
 }
 
-#about-me p {
-    padding: 0 5px 10px 30px;
+p {
+    font-size: 20px;
 }
 
-#about-me {
+.container {
     display: flex;
-    margin: 0 30px 20px 60px;
+    flex-wrap: wrap;
 }
 
-#work {
+.work-container {
     display: flex;
-    margin: 0 30px 20px 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
-#contact-me {
-    display: flex;
-    margin: 0 30px 20px 60px;
+.about-me {
+    height: 200px;
+    width: 300px;
+    background-color: lightblue;
+    margin-top: 20px;
 }
 
+.work {
+    height: 800px;
+    width: 300px;
+    background-color: lightblue;
+    margin-top: 20px;
+}
 
+.contact-me {
+    height: 200px;
+    width: 300px;
+    background-color: lightblue;
+    margin-top: 20px;
+}
 
+.about-me-content {
+    height: 200px;
+    width: 800px;
+    background-color: lightskyblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
+.work-content {
+    height: 800px;
+    width: 800px;
+    background-color: lightskyblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
+.contact-me-content {
+    height: 200px;
+    width: 800px;
+    background-color: lightskyblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* Work section */
+.surfReport {
+    height: 48%;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.ledWall {
+    height: 22%;
+    width: 47.5%;
+    background-color: lightgreen;
+}
+
+.calculator {
+    height: 22%;
+    width: 47.5%;
+    background-color: lightgreen;
+}
+
+.pastelPuzzles {
+    height: 22%;
+    width: 47.5%;
+    background-color: lightgreen;
+}
+
+.runBuddy {
+    height: 22%;
+    width: 47.5%;
+    background-color: lightgreen;
+}
+
+.work-boxes {
+    border: 6px solid palevioletred;
+    
+}
+
+.work-img {
+    height: 100%;
+    width: 100%;
+}
