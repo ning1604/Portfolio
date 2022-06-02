@@ -96,7 +96,7 @@ body {
     height: 300px;
     width: 100%;
     margin-bottom: 30px;
-    background-image: url("C:/Users/Ning/Documents/Assignments/week2/Portfolio/assets/images/backgroundImg.jpg");
+    background-image: url("../images/backgroundImg.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
